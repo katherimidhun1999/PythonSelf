@@ -1,0 +1,7 @@
+#2 Add Numbers
+sum1=int(input("\n2.First Value for addition\n"))
+sum2=int(input("Second Value for addition\n"))
+add=sum1+sum2
+print("The Sum is:",add)
+#print(number1+number2)
+
