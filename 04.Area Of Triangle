@@ -1,0 +1,6 @@
+#4 Area Of Triangle
+
+tbase=int(input("\n4.Give a base value of triangle\n"))
+theight=int(input("Give a height value of triangle\n"))
+tarea=(tbase*theight)/2
+print("The Area Of Triangle",tarea)
