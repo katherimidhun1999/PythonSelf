@@ -1,0 +1,4 @@
+#3 Square Root
+sq1=int(input("\n3.Value for Square root\n"))
+sq1*=sq1
+print("The Square of Number is",sq1)
