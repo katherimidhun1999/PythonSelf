@@ -1,0 +1,15 @@
+#7 km to miles
+# mm= 0.3937 inch
+
+def kmMile(choice):
+          if(choice==1):
+                    km=int(input("\nEnter value of KiloMeter: "))
+                    mile=((km)*(0.621371))
+                    print("\nThe Mile value is:",mile)
+          else:
+                    mile=int(input("\nEnter value of Mile: "))
+                    km=((mile)/(0.621371))
+                    print("\nThe kiloMeter value is:",km)
+
+wish=int(input("Enter '1' (km to mile) or '2' (mile to km)\n"))
+kmMile(wish)
