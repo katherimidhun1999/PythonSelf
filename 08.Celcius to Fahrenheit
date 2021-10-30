@@ -1,0 +1,14 @@
+#8 celsius to fahrenheit
+
+def celsiusFahrenheit(choice):
+          if(choice==1):
+                    celsius=int(input("\nEnter value of Celsius: "))
+                    fahrenheit=(((celsius)*(1.8))+32)
+                    print("\nThe Fahrenheit value is:",fahrenheit)
+          else:
+                    fahrenheit=int(input("\nEnter value of Fahrenheit: "))
+                    celsius=(((fahrenheit)-32)/(1.8))
+                    print("\nThe Celsius value is:",celsius)
+
+wish=int(input("Enter '1' (celsius to fahrenheit)\n or '2' (fahrenheit to celsius)\n"))
+celsiusFahrenheit(wish)
