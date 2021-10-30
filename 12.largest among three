@@ -1,0 +1,18 @@
+#12 largest among three
+
+ip1=int(input("Enter First Value (A) : "))
+print("\n")
+ip2=int(input("Enter Second Value (B): "))
+print("\n")
+ip3=int(input("Enter Third Value (C) : "))
+print("\n")
+
+
+if(ip1>ip2 and ip1>ip3):
+          print("The Largest is A: ",ip1)
+
+elif(ip2>ip3 and ip2>ip1):
+          print("The Largest is B: ",ip2)
+          
+else:
+          print("The Largest is C: ",ip3)
