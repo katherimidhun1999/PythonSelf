@@ -1,0 +1,10 @@
+#10 odd or even
+
+def oddeve(val):
+          if(val%2==0):
+                    print("It's an Even Value\n")
+          elif(val%2!=0):
+                    print("It's an Odd Value\n")
+          
+value=float(input("Enter a value\n"))
+oddeve(value)
