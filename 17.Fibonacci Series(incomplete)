@@ -1,0 +1,12 @@
+#17 Fibonacci Series(incomplete----wrong )
+
+def fib(term):
+          for i in range(0,term+1):
+          
+                    fibb=1
+                    fibb+=i
+                    print(fibb)
+                    
+val=int(input("?"))
+fib(val)
+
