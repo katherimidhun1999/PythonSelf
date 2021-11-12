@@ -1,0 +1,28 @@
+#to print dots(.) in this patterns
+''' limit = 5
+.
+..
+...
+....
+.....
+....
+...
+..
+.
+'''
+
+limit=int(input('Limit: '))
+i=0
+j=limit
+
+while(i<limit):
+          i+=1
+          dot='.'
+          print(i,(i*dot))
+          
+          if(i==limit):
+                    print('reverse')
+                    while(j>0):
+                              dot='.'
+                              print(j,(j*dot))
+                              j-=1
